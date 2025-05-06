@@ -13,8 +13,8 @@
 
     body {
       font-family: Arial, sans-serif;
-      background-color: white;
-      color: black;
+      background-color: darkslategrey;
+      color: white;
     }
 
     nav {
@@ -25,7 +25,7 @@
     }
 
     nav a {
-      color: black;
+      color: white;
       margin-left: 20px;
       text-decoration: none;
       font-size: 1.2rem;
@@ -39,7 +39,7 @@
     .hero {
       position: relative;
       height: 100vh;
-      background: url('https://cdn.oneesports.gg/cdn-data/2022/09/GenshinImpact_Cyno_featured.jpg') no-repeat center center fixed;
+      background: url('https://cdn.pixabay.com/animation/2025/02/06/17/23/17-23-54-364_512.gif') no-repeat center center fixed;
       background-size: cover;
       display: flex;
       flex-direction: column;
@@ -67,17 +67,17 @@
     #about-me {
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
+      align-items: left;
+      justify-content: left;
     }
 
     #about-me .image {
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      background: url('your-image.jpg') no-repeat center center;
       background-size: cover;
       margin: 20px;
+      align-items: right;
     }
 
     #about-me .text {
@@ -86,10 +86,18 @@
       margin: 20px;
     }
 
+    #about-me a {
+      color: yellowgreen;
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
     /* Projects */
     #projects .project {
       margin-top: 30px;
-      text-align: center;
+      text-align: left;
     }
 
     #projects img {
@@ -100,7 +108,7 @@
     }
 
     #projects a {
-      color: black;
+      color: white;
       display: block;
       margin-top: 10px;
       text-decoration: none;
@@ -114,45 +122,53 @@
 </head>
 <body>
 
-  <!-- Navbar -->
   <nav>
     <a href="#about-me">About Me</a>
     <a href="#projects">Projects</a>
     <a href="#contact-me">Contact Me</a>
   </nav>
 
-  <!-- Hero Section -->
   <div class="hero">
     <h1>CyYes</h1>
     <p>website</p>
   </div>
 
-  <!-- About Me -->
   <section id="about-me">
-    <div class="image">
-    </div>
     <div class="text">
+      <h1>About me</h1>
+      <br>
+      <br>  
+      <br>   
       <p>
-        Hiii, I'm CyYes! Your local Cyno main, JingYuan Main, Brant Main and Anton Main!<br>
+        Hiii, I'm CyYes! Your local Cyno main, JingYuan Main and Brant Main!<br>
         I'm a cybersecurity lover and I REALLY love crypto!<br>
         I'm 18 and my main interests are playing videogames and watching anime!<br>
-        I don't currently have any plans for the future but hopefully it's about cybersecurity!
+        I don't currently have any plans for the future<br>but hopefully it's about cybersecurity!<br>
+       <br>My current "job", if you can call it one, is creating challenges for<br>
+       <a href="https://www.cybertrials.it">Cybertrials!</a><br>
+       A cybersecurity based competition for girls-only.
+
       </p>
     </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <a href="https://example.com">My little and simple CTF!</a>
+    <div class="image">
+      <img src="https://images.gach.app/genshin/UI_AvatarIcon_Cyno.webp" alt="cyno" style="width:50;height:50x;">
     </div>
   </section>
 
-  <!-- Contact Me -->
+  <section id="projects">
+    <h1>Projects</h1>
+    <div class="project">
+      <h2><a href="https://github.com/Mixaserenegade/Mixase-CTF">My little and simple CTF!</a></h2>
+      <br>
+      <p>More projects will be added in the future such as:<br>other ctfs;<br>challenges;<br>more.</p>
+    </div>
+  </section>
+
   <section id="contact-me">
-    <h2>Contact Me</h2>
-    <!-- Empty as requested -->
+    <h1>Contact Me</h1>
+    <img src="https://www.pngarts.com/files/4/Sorry-Transparent-Background-PNG.png" alt="sorry" style="width:400px; height:400px">
+    <br>
+    <p>Currently there's no way to contact me since I'm not really going to publish this site yet.</p>
   </section>
 
 </body>
